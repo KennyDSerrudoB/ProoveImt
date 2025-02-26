@@ -1,0 +1,10 @@
+20:50:21 **** Incremental Build of configuration Debug for project buttonLedSimple ****
+make -j20 all 
+arm-none-eabi-size  buttonLedSimple.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15524	    104	   2112	  17740	   454c	buttonLedSimple.elf
+Finished building: default.size.stdout
+ 
+
+20:50:21 Build Finished. 0 errors, 0 warnings. (took 217ms)
+

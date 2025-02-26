@@ -1,0 +1,221 @@
+2025-02-24 01:23:55,639 [INFO] Gpio:277 - dependency for GPIO [USART2]
+2025-02-24 01:24:42,836 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 562270384 Bytes (775946240)
+2025-02-24 01:24:44,671 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 583768240 Bytes (775946240)
+2025-02-24 01:24:47,435 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 695439536 Bytes (775946240)
+2025-02-24 01:24:47,700 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-02-24 01:24:47,700 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-02-24 01:24:47,700 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: DMA
+2025-02-24 01:24:47,700 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-02-24 01:24:47,700 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-02-24 01:24:47,700 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-02-24 01:24:47,701 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-02-24 01:24:47,716 [INFO] Argument:325 - Argument : hdmavalue: null
+2025-02-24 01:24:47,717 [INFO] Argument:327 - 	 sub Args: 
+2025-02-24 01:24:47,717 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Channel7
+2025-02-24 01:24:47,717 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Channel7
+2025-02-24 01:24:47,717 [INFO] Argument:325 - Argument : Initvalue: null
+2025-02-24 01:24:47,717 [INFO] Argument:327 - 	 sub Args: 
+2025-02-24 01:24:47,717 [INFO] Argument:325 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2025-02-24 01:24:47,717 [INFO] Argument:335 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2025-02-24 01:24:47,717 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-24 01:24:47,717 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-24 01:24:47,717 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-24 01:24:47,717 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-24 01:24:47,717 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2025-02-24 01:24:47,717 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2025-02-24 01:24:47,717 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2025-02-24 01:24:47,717 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2025-02-24 01:24:47,717 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-24 01:24:47,717 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-24 01:24:47,717 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_MEDIUM
+2025-02-24 01:24:47,717 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_MEDIUM
+2025-02-24 01:24:47,717 [INFO] Argument:325 - Argument : Lockvalue: null
+2025-02-24 01:24:47,717 [INFO] Argument:335 - Argument : Lockvalue: null
+2025-02-24 01:24:47,717 [INFO] Argument:325 - Argument : Statevalue: null
+2025-02-24 01:24:47,717 [INFO] Argument:335 - Argument : Statevalue: null
+2025-02-24 01:24:47,717 [INFO] Argument:325 - Argument : Parentvalue: null
+2025-02-24 01:24:47,717 [INFO] Argument:335 - Argument : Parentvalue: null
+2025-02-24 01:24:47,717 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2025-02-24 01:24:47,718 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2025-02-24 01:24:47,718 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-24 01:24:47,718 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-24 01:24:47,718 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2025-02-24 01:24:47,718 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2025-02-24 01:24:47,718 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2025-02-24 01:24:47,718 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2025-02-24 01:24:47,718 [INFO] Argument:325 - Argument : DMA_Remapvalue: null
+2025-02-24 01:24:47,718 [INFO] Argument:335 - Argument : DMA_Remapvalue: null
+2025-02-24 01:24:47,849 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\license.tmp_save
+2025-02-24 01:24:48,075 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\license.tmp
+2025-02-24 01:24:48,119 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\gpio.tmp_save
+2025-02-24 01:24:48,257 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\gpio.tmp
+2025-02-24 01:24:48,363 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\dma.tmp_save
+2025-02-24 01:24:48,457 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\dma.tmp
+2025-02-24 01:24:48,465 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\dma_GV.tmp_save
+2025-02-24 01:24:48,522 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\dma_GV.tmp
+2025-02-24 01:24:48,548 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\stm32f3xx_it.c_save
+2025-02-24 01:24:48,701 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\stm32f3xx_it.c
+2025-02-24 01:24:48,720 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\stm32f3xx_it.h_save
+2025-02-24 01:24:48,780 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\stm32f3xx_it.h
+2025-02-24 01:24:48,810 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\stm32f3xx_hal_msp.c_save
+2025-02-24 01:24:48,895 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\stm32f3xx_hal_msp.c
+2025-02-24 01:24:48,905 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\system.tmp_save
+2025-02-24 01:24:48,953 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\system.tmp
+2025-02-24 01:24:48,980 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-02-24 01:24:49,046 [INFO] CodeEngine:335 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\stm32f3xx_hal_conf.h
+2025-02-24 01:24:49,091 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\main.h_save
+2025-02-24 01:24:49,172 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\main.h
+2025-02-24 01:24:49,194 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\main.c_save
+2025-02-24 01:24:49,285 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\main.c
+2025-02-24 01:24:49,486 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 112mS.
+2025-02-24 01:24:49,488 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-02-24 01:24:49,546 [INFO] ConfigFileManager:1579 - The Die is : DIE438
+2025-02-24 01:24:50,126 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 638mS.
+2025-02-24 01:24:50,126 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-02-24 01:24:50,128 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-02-24 01:25:25,793 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 518194216 Bytes (775946240)
+2025-02-24 01:25:25,851 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-02-24 01:25:25,851 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-02-24 01:25:25,851 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: DMA
+2025-02-24 01:25:25,851 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-02-24 01:25:25,851 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-02-24 01:25:25,851 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-02-24 01:25:25,852 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-02-24 01:25:25,861 [INFO] Argument:325 - Argument : hdmavalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:327 - 	 sub Args: 
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Channel7
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Channel7
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : Initvalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:327 - 	 sub Args: 
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_MEDIUM
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_MEDIUM
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : Lockvalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : Lockvalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : Statevalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : Statevalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : Parentvalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : Parentvalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:325 - Argument : DMA_Remapvalue: null
+2025-02-24 01:25:25,862 [INFO] Argument:335 - Argument : DMA_Remapvalue: null
+2025-02-24 01:25:25,895 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\license.tmp_save
+2025-02-24 01:25:25,946 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\license.tmp
+2025-02-24 01:25:25,964 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\gpio.tmp_save
+2025-02-24 01:25:26,018 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\gpio.tmp
+2025-02-24 01:25:26,058 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\dma.tmp_save
+2025-02-24 01:25:26,111 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\dma.tmp
+2025-02-24 01:25:26,114 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\dma_GV.tmp_save
+2025-02-24 01:25:26,155 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\dma_GV.tmp
+2025-02-24 01:25:26,178 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\stm32f3xx_it.c_save
+2025-02-24 01:25:26,221 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\stm32f3xx_it.c
+2025-02-24 01:25:26,227 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\stm32f3xx_it.h_save
+2025-02-24 01:25:26,268 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\stm32f3xx_it.h
+2025-02-24 01:25:26,281 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\stm32f3xx_hal_msp.c_save
+2025-02-24 01:25:26,333 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\stm32f3xx_hal_msp.c
+2025-02-24 01:25:26,335 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\system.tmp_save
+2025-02-24 01:25:26,367 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\system.tmp
+2025-02-24 01:25:26,380 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-02-24 01:25:26,442 [INFO] CodeEngine:335 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\stm32f3xx_hal_conf.h
+2025-02-24 01:25:26,476 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\main.h_save
+2025-02-24 01:25:26,519 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\main.h
+2025-02-24 01:25:26,530 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\main.c_save
+2025-02-24 01:25:26,589 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\main.c
+2025-02-24 01:25:26,749 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 77mS.
+2025-02-24 01:25:26,750 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-02-24 01:25:26,792 [INFO] ConfigFileManager:1579 - The Die is : DIE438
+2025-02-24 01:25:27,237 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 486mS.
+2025-02-24 01:25:27,237 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-02-24 01:25:27,239 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-02-24 01:27:26,217 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 265753032 Bytes (775946240)
+2025-02-24 01:27:28,541 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 288884480 Bytes (775946240)
+2025-02-24 01:27:29,501 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 323487488 Bytes (775946240)
+2025-02-24 01:27:29,577 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-02-24 01:27:29,577 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-02-24 01:27:29,577 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: DMA
+2025-02-24 01:27:29,577 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-02-24 01:27:29,577 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-02-24 01:27:29,577 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-02-24 01:27:29,577 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-02-24 01:27:29,585 [INFO] Argument:325 - Argument : hdmavalue: null
+2025-02-24 01:27:29,585 [INFO] Argument:327 - 	 sub Args: 
+2025-02-24 01:27:29,585 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Channel7
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Channel7
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : Initvalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:327 - 	 sub Args: 
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_MEDIUM
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_MEDIUM
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : Lockvalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : Lockvalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : Statevalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : Statevalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : Parentvalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : Parentvalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:325 - Argument : DMA_Remapvalue: null
+2025-02-24 01:27:29,586 [INFO] Argument:335 - Argument : DMA_Remapvalue: null
+2025-02-24 01:27:29,615 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\license.tmp_save
+2025-02-24 01:27:29,667 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\license.tmp
+2025-02-24 01:27:29,682 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\gpio.tmp_save
+2025-02-24 01:27:29,749 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\gpio.tmp
+2025-02-24 01:27:29,789 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\dma.tmp_save
+2025-02-24 01:27:29,840 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\dma.tmp
+2025-02-24 01:27:29,843 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\dma_GV.tmp_save
+2025-02-24 01:27:29,875 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\dma_GV.tmp
+2025-02-24 01:27:29,889 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\stm32f3xx_it.c_save
+2025-02-24 01:27:29,932 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\stm32f3xx_it.c
+2025-02-24 01:27:29,935 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\stm32f3xx_it.h_save
+2025-02-24 01:27:29,971 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\stm32f3xx_it.h
+2025-02-24 01:27:29,985 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\stm32f3xx_hal_msp.c_save
+2025-02-24 01:27:30,042 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\stm32f3xx_hal_msp.c
+2025-02-24 01:27:30,045 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\system.tmp_save
+2025-02-24 01:27:30,078 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\MXTmpFiles\system.tmp
+2025-02-24 01:27:30,091 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-02-24 01:27:30,158 [INFO] CodeEngine:335 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\stm32f3xx_hal_conf.h
+2025-02-24 01:27:30,222 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\main.h_save
+2025-02-24 01:27:30,297 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Inc\main.h
+2025-02-24 01:27:30,318 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\main.c_save
+2025-02-24 01:27:30,407 [INFO] CodeEngine:279 - Generated code: C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\Core\Src\main.c
+2025-02-24 01:27:30,594 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 86mS.
+2025-02-24 01:27:30,596 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-02-24 01:27:30,636 [INFO] ConfigFileManager:1579 - The Die is : DIE438
+2025-02-24 01:27:31,082 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 486mS.
+2025-02-24 01:27:31,082 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-02-24 01:27:31,084 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.

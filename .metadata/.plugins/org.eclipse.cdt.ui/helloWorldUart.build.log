@@ -1,0 +1,10 @@
+21:51:58 **** Incremental Build of configuration Debug for project helloWorldUart ****
+make -j20 all 
+arm-none-eabi-size  helloWorldUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17420	    104	   2184	  19708	   4cfc	helloWorldUart.elf
+Finished building: default.size.stdout
+ 
+
+21:51:58 Build Finished. 0 errors, 0 warnings. (took 143ms)
+

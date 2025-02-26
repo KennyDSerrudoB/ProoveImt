@@ -1,0 +1,10 @@
+14:03:07 **** Incremental Build of configuration Debug for project useUart ****
+make -j20 all 
+arm-none-eabi-size  useUart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11796	     36	   1772	  13604	   3524	useUart.elf
+Finished building: default.size.stdout
+ 
+
+14:03:07 Build Finished. 0 errors, 0 warnings. (took 137ms)
+

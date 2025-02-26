@@ -1,21 +1,21 @@
-03:15:23 **** Incremental Build of configuration Debug for project blinkLed ****
+16:49:34 **** Build of configuration Debug for project inputOutputUart ****
 make -j20 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303x8 -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "blinkLed.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\blinkLed\STM32F303K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blinkLed.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: blinkLed.elf
+arm-none-eabi-gcc -o "inputOutputUart.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\kenny\OneDrive\Documentos\UNIVERSITY\REPOSITORIES\ProoveImt\inputOutputUart\STM32F303K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="inputOutputUart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: inputOutputUart.elf
  
-arm-none-eabi-size  blinkLed.elf 
-arm-none-eabi-objdump -h -S blinkLed.elf  > "blinkLed.list"
+arm-none-eabi-size  inputOutputUart.elf 
+arm-none-eabi-objdump -h -S inputOutputUart.elf  > "inputOutputUart.list"
    text	   data	    bss	    dec	    hex	filename
-  10224	     12	   1708	  11944	   2ea8	blinkLed.elf
+  15560	    108	   2116	  17784	   4578	inputOutputUart.elf
 Finished building: default.size.stdout
  
-Finished building: blinkLed.list
+Finished building: inputOutputUart.list
  
-03:15:33 **** Incremental Build of configuration Debug for project blinkLed ****
+16:49:39 **** Incremental Build of configuration Debug for project inputOutputUart ****
 make -j20 all 
-arm-none-eabi-size  blinkLed.elf 
+arm-none-eabi-size  inputOutputUart.elf 
    text	   data	    bss	    dec	    hex	filename
-  10224	     12	   1708	  11944	   2ea8	blinkLed.elf
+  15560	    108	   2116	  17784	   4578	inputOutputUart.elf
 Finished building: default.size.stdout
  

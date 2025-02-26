@@ -33,7 +33,7 @@
 /* USER CODE BEGIN PD */
 #define L1 Led1_GPIO_Port, Led1_Pin
 #define L2 Led2_GPIO_Port, Led2_Pin
-#define L3 Led3_GPIO_Port, Led3_Pin
+
 #define TD 500
 /* USER CODE END PD */
 
@@ -46,7 +46,7 @@
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-extern UART_HandleTypeDef huart2;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -107,11 +107,9 @@ int main(void)
 	  //HAL_Delay(500);
 	  HAL_GPIO_WritePin(Led1_GPIO_Port, Led1_Pin, GPIO_PIN_SET);
 	  HAL_GPIO_WritePin(Led2_GPIO_Port, Led2_Pin, GPIO_PIN_SET);
-	  HAL_GPIO_WritePin(Led3_GPIO_Port, Led3_Pin, GPIO_PIN_SET);
 	  HAL_Delay(TD);
 	  HAL_GPIO_WritePin(Led1_GPIO_Port, Led1_Pin, GPIO_PIN_RESET);
 	  HAL_GPIO_WritePin(Led2_GPIO_Port, Led2_Pin, GPIO_PIN_RESET);
-	  HAL_GPIO_WritePin(Led3_GPIO_Port, Led3_Pin, GPIO_PIN_RESET);
 	  HAL_Delay(TD);
 
 
@@ -207,10 +205,10 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, Led1_Pin|Led2_Pin|Led3_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, Led1_Pin|Led2_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : Led1_Pin Led2_Pin Led3_Pin */
-  GPIO_InitStruct.Pin = Led1_Pin|Led2_Pin|Led3_Pin;
+  /*Configure GPIO pins : Led1_Pin Led2_Pin */
+  GPIO_InitStruct.Pin = Led1_Pin|Led2_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
